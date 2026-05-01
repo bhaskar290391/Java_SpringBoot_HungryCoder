@@ -1,7 +1,9 @@
 package com.springboot.practise.Controller;
 
 import com.springboot.practise.dto.ProductResponseV1;
+import com.springboot.practise.dto.ProductResponseV2;
 import com.springboot.practise.model.Product;
+import com.springboot.practise.model.ProductV2;
 import com.springboot.practise.services.ProductService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,12 +22,25 @@ public class ProductController {
         this.service = service;
     }
 
-    @GetMapping("/v1")
+    @GetMapping(version = "1")
     public List<ProductResponseV1> getAllProductResposneV1(){
         return  service.getAllProducts().stream().map(this::getProductResponseV1).collect(Collectors.toList());
     }
 
+    @GetMapping(version = "2")
+    public ProductResponseV2 getAllProductResposneV2(){
+        List<Product> allProducts = service.getAllProducts();
+        return this.getProductResponseV2(allProducts);
+
+    }
+
     private ProductResponseV1 getProductResponseV1(Product product) {
         return  new ProductResponseV1(product.id(), product.name(), product.price());
+    }
+
+    private ProductResponseV2 getProductResponseV2(List<Product> product) {
+
+        List<ProductV2> collect = product.stream().map(p -> new ProductV2(p.id(), p.name(), p.price(), p.description(), p.category())).collect(Collectors.toList());
+        return  new ProductResponseV2(collect,product.size());
     }
 }
