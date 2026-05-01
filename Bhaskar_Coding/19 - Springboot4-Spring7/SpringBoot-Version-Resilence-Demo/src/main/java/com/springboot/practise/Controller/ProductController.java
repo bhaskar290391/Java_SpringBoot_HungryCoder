@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -24,7 +25,18 @@ public class ProductController {
 
     @GetMapping(version = "1")
     public List<ProductResponseV1> getAllProductResposneV1(){
-        return  service.getAllProducts().stream().map(this::getProductResponseV1).collect(Collectors.toList());
+
+        try{
+            return  service.getAllProducts().stream().map(this::getProductResponseV1).collect(Collectors.toList());
+        } catch (RuntimeException e) {
+           return  fallBackException(e);
+        }
+
+    }
+
+    private List<ProductResponseV1> fallBackException(RuntimeException e) {
+        System.out.println("This Method will triggered the exception !!!");
+        return Collections.emptyList();
     }
 
     @GetMapping(version = "2")
