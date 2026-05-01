@@ -30,9 +30,17 @@ public class ProductService {
             maxDelay = 100
     )
     @ConcurrencyLimit(2)
-    public List<Product> getAllProducts() {
+    public List<Product> getAllProducts() throws InterruptedException {
+
+        //Print log for ConcurrencyLimit
+        int count=active.incrementAndGet();
+        System.out.println("Started Active!!" + count);
+        Thread.sleep(5000);
+        count= active.decrementAndGet();
+        System.out.println("Done !!! "+ count);
 
         //Print log for retryable
+        /*
         int attempt=attemptCount.incrementAndGet();
         System.out.println("Attempt : "+ attempt);
 
@@ -43,6 +51,8 @@ public class ProductService {
 
         System.out.println("Success Attempt");
         attemptCount.set(0);
+
+         */
         return  new ArrayList<>(products);
     };
 }

@@ -28,8 +28,8 @@ public class ProductController {
 
         try{
             return  service.getAllProducts().stream().map(this::getProductResponseV1).collect(Collectors.toList());
-        } catch (RuntimeException e) {
-           return  fallBackException(e);
+        } catch (Exception e) {
+           return  fallBackException((RuntimeException) e);
         }
 
     }
@@ -40,7 +40,7 @@ public class ProductController {
     }
 
     @GetMapping(version = "2")
-    public ProductResponseV2 getAllProductResposneV2(){
+    public ProductResponseV2 getAllProductResposneV2() throws InterruptedException {
         List<Product> allProducts = service.getAllProducts();
         return this.getProductResponseV2(allProducts);
 
