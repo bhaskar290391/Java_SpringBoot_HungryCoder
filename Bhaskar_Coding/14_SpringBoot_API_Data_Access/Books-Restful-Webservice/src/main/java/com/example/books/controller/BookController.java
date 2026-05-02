@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.books.entity.Book;
+import com.example.books.exception.ResourceNotFound;
 
 @RestController
 @RequestMapping("/api/books")
@@ -33,6 +34,10 @@ public class BookController {
 
 	@GetMapping("/{id}")
 	public Book getBookById(@PathVariable Long id) {
+		
+		if(id > 10) {
+			throw new ResourceNotFound("Book id does not exist");
+		}
 		return books.stream().filter(book -> book.getId().equals(id)).findFirst().orElse(null);
 	}
 
