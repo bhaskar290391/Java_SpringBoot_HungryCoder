@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  doctor-service:
+    image: doctor-latest
+    container_name: doctor-container
+    depends_on:
+      - patient-service
+    networks:
+      - app-network
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:8080/actuator/health" ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    ports:
+      - '8081:8080'
+
+  patient-service:
+    image: patient-latest
+    container_name: patient-container
+    networks:
+      - app-network
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:8080/actuator/health" ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    ports:
+      - '8082:8080'
+
+networks:
+  app-network:
