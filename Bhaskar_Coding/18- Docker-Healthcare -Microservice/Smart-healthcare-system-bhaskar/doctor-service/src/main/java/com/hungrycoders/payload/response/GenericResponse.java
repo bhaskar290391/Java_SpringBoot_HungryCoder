@@ -1,0 +1,25 @@
+package com.hungrycoders.payload.response;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+@Data
+public class GenericResponse<T> {
+
+	private String message;
+
+	private T data;
+
+	public GenericResponse(String message) {
+
+		this.message = message;
+	}
+
+}
