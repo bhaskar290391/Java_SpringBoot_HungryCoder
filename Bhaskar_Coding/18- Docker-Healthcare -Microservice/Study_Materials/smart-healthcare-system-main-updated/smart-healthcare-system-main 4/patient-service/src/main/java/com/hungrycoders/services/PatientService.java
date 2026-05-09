@@ -27,19 +27,6 @@ public class PatientService {
         return new ArrayList<>(patientList);
     }
 
-    public Patient addPatient(com.hungrycoders.payload.request.Patient patient) throws Exception {
-        Optional<Patient> optionalPatient = patientRepository.findByEmail(patient.getEmail());
-        if(optionalPatient.isPresent()) {
-            logger.error("Failed to add patient: A patient with email {} already exists", patient.getEmail());
-            throw new Exception("A patient with this email already exists");
-        }
-        UUID generatedId = UUID.randomUUID();
-        Patient patientEntity = new Patient(generatedId,
-                patient.getFirstName(), patient.getLastName(),
-                patient.getEmail(), patient.getPhone(), patient.getAge());
-        logger.debug("Saved patient with id: {}", generatedId);
-        return patientRepository.save(patientEntity);
-    }
 
     public Patient getPatientById(String id) throws ResourceNotFoundException {
         Optional<Patient> patient = patientRepository.findById(UUID.fromString(id));
@@ -59,6 +46,31 @@ public class PatientService {
         }
         logger.info("Doctor fetched successfully with email: {}", email);
         return patient.get();
+    }
+
+
+    public void deleteDoctorById(String id) throws ResourceNotFoundException {
+        UUID uuid = UUID.fromString(id); // Convert String to UUID
+        if (!patientRepository.existsById(uuid)) {
+            logger.error("Failed to delete patient: Doctor not found with id: {}", id);
+            throw new ResourceNotFoundException("patient not found with id: " + id);
+        }
+        patientRepository.deleteById(uuid); // Delete the patient by UUID
+        logger.info("Doctor deleted successfully with id: {}", id);
+    }
+
+    public Patient addPatient(com.hungrycoders.payload.request.Patient patient) throws Exception {
+        Optional<Patient> optionalPatient = patientRepository.findByEmail(patient.getEmail());
+        if(optionalPatient.isPresent()) {
+            logger.error("Failed to add patient: A patient with email {} already exists", patient.getEmail());
+            throw new Exception("A patient with this email already exists");
+        }
+        UUID generatedId = UUID.randomUUID();
+        Patient patientEntity = new Patient(generatedId,
+                patient.getFirstName(), patient.getLastName(),
+                patient.getEmail(), patient.getPhone(), patient.getAge());
+        logger.debug("Saved patient with id: {}", generatedId);
+        return patientRepository.save(patientEntity);
     }
 
     public Patient updatePatientById(String id, com.hungrycoders.payload.request.Patient patient) throws ResourceNotFoundException {
@@ -90,15 +102,7 @@ public class PatientService {
     }
 
 
-    public void deleteDoctorById(String id) throws ResourceNotFoundException {
-        UUID uuid = UUID.fromString(id); // Convert String to UUID
-        if (!patientRepository.existsById(uuid)) {
-            logger.error("Failed to delete patient: Doctor not found with id: {}", id);
-            throw new ResourceNotFoundException("patient not found with id: " + id);
-        }
-        patientRepository.deleteById(uuid); // Delete the patient by UUID
-        logger.info("Doctor deleted successfully with id: {}", id);
-    }
+
 
 }
 
