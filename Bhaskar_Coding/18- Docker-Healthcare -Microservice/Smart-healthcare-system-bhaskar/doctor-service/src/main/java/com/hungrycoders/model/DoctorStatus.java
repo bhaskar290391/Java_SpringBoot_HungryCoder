@@ -2,6 +2,7 @@ package com.hungrycoders.model;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonValue;
+import com.hungrycoders.exception.InvalidDoctorStatusException;
 
 public enum DoctorStatus {
 	AVAILABLE, NOT_AVAILABLE, DISABLED;

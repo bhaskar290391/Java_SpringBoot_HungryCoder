@@ -1,6 +1,7 @@
 package com.hungrycoders.payload.request;
 
 import com.hungrycoders.model.DoctorStatus;
+import com.hungrycoders.utils.ValidEnum;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.Min;

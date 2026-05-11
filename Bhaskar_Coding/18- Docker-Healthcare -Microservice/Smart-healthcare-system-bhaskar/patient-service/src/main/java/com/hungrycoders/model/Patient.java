@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.core.mapping.FieldType;
 
 import java.util.UUID;
 
-@Document(value = "patients")
+@Document(collection = "patients")
 public class Patient {
 
 	@Id
@@ -92,5 +92,4 @@ public class Patient {
 				+ ", phone=" + phone + ", age=" + age + "]";
 	}
 
-	
 }

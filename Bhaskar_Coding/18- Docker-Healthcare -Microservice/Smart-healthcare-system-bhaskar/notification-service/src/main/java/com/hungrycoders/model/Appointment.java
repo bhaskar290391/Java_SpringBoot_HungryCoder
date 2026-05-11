@@ -1,13 +1,6 @@
 package com.hungrycoders.model;
 
-import java.lang.annotation.Target;
 import java.time.LocalDateTime;
-import java.util.UUID;
-
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
-import org.springframework.data.mongodb.core.mapping.Field;
-import org.springframework.data.mongodb.core.mapping.FieldType;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -20,22 +13,14 @@ import lombok.Setter;
 @Getter
 @Setter
 @Data
-@Document(collection = "appointments")
 public class Appointment {
 
-	@Id
-	@Field(targetType = FieldType.STRING)
-	private UUID id;
-
+	private String id;
 	private Patient patient;
-
 	private Doctor doctor;
-
 	private LocalDateTime appointmentTime;
-
 	private AppointmentStatus status;
-
 	private String notes;
-	
 	private String doctorComments;
+
 }
