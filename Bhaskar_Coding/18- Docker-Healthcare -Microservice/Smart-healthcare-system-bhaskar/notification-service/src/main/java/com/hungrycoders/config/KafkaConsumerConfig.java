@@ -38,7 +38,7 @@ public class KafkaConsumerConfig {
 	}
 
 	@Bean
-	private ConsumerFactory<String, Appointment> consumerFactory() {
+	public ConsumerFactory<String, Appointment> consumerFactory() {
 		Map<String, Object> props = new HashMap();
 		props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, kafkaAddress); // Kafka broker address
 		props.put(ConsumerConfig.GROUP_ID_CONFIG, groupId); // Consumer group ID

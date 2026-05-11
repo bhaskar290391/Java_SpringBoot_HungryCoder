@@ -14,11 +14,13 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.context.SecurityContextHolder; // Import for managing security context
 import org.springframework.security.core.userdetails.UserDetails; // Import for user details
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource; // Import for authentication details
+import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils; // Import StringUtils for string utility methods
 import org.springframework.web.filter.OncePerRequestFilter; // I
 
 import com.hungrycoder.security.services.UserDetailsServiceImpl;
 
+@Component
 public class AuthTokenFilter extends OncePerRequestFilter {
 
 	public static final Logger logger = LoggerFactory.getLogger(AuthTokenFilter.class);

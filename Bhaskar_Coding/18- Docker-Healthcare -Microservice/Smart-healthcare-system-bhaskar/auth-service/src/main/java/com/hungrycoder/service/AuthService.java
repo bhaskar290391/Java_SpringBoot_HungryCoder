@@ -63,7 +63,7 @@ public class AuthService {
 
 	public MessageResponse registerUser(SignupRequest request) {
 
-		if (userRepository.existsByUsermame(request.username())) {
+		if (userRepository.existsByUsername(request.username())) {
 			return new MessageResponse("Error: Username is already exists");
 		}
 

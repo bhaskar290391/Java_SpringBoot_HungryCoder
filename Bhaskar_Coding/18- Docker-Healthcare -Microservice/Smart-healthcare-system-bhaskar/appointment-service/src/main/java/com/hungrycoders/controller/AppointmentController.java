@@ -23,7 +23,7 @@ import jakarta.validation.Valid;
 
 @RestController
 @CrossOrigin(origins = "*", allowedHeaders = "*")
-@RequestMapping(value = "/api.v1/appointments")
+@RequestMapping(value = "/api/v1/appointments")
 public class AppointmentController {
 
 	public static Logger logger = LoggerFactory.getLogger(AppointmentController.class);
@@ -39,8 +39,8 @@ public class AppointmentController {
 			logger.info("Appointment fetched successfully for doctor Id : {}" + doctorId);
 			return ResponseEntity.ok(doctorData);
 		} catch (Exception e) {
-			logger.error("Error while fetching appointment of Doctor with {}" + doctorId);
-			return ResponseEntity.internalServerError().body("Unable to fetch appointments");
+			logger.error("Error while fetching appointment of Doctor with {} {}" , doctorId ,e.getMessage() );
+			return ResponseEntity.internalServerError().body("Unable to fetch appointments" +e.getMessage());
 
 		}
 	}
@@ -53,7 +53,7 @@ public class AppointmentController {
 			logger.info("Appointment fetched successfully for Patient Id : {}" + patientId);
 			return ResponseEntity.ok(patientData);
 		} catch (Exception e) {
-			logger.error("Error while fetching appointment of Patient with {}" + patientId);
+			logger.error("Error while fetching appointment of Patient with {} {}" ,patientId, e.getMessage());
 			return ResponseEntity.internalServerError().body("Unable to fetch appointments");
 
 		}
@@ -67,7 +67,7 @@ public class AppointmentController {
 			logger.info("All Appointment fetched successfully ");
 			return ResponseEntity.ok(appointments);
 		} catch (Exception e) {
-			logger.error("Error while fetching all appointment");
+			logger.error("Error while fetching all appointment {}" ,e.getMessage());
 			return ResponseEntity.internalServerError().body("Unable to fetch appointments");
 
 		}
@@ -81,7 +81,7 @@ public class AppointmentController {
 			logger.info("Appointment booked successfully");
 			return ResponseEntity.ok("Appointment booked successfully with id " + bookAppointment);
 		} catch (Exception e) {
-			logger.error("Error while saving  appointment");
+			logger.error("Error while saving  appointment {} ",e.getMessage());
 			return ResponseEntity.internalServerError().body("Error while saving  appointment");
 		}
 	}
@@ -94,7 +94,7 @@ public class AppointmentController {
 			logger.info("Appointment updated successfully");
 			return ResponseEntity.ok("Appointment updated successfully with id " + updateAppointment);
 		} catch (Exception e) {
-			logger.error("Error while updaing  appointment");
+			logger.error("Error while updaing  appointment {} ", e.getMessage());
 			return ResponseEntity.internalServerError().body("Error while saving  appointment");
 		}
 	}
