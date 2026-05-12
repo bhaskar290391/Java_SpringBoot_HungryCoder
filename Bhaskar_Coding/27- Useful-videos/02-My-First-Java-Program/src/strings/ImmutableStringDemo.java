@@ -14,7 +14,7 @@ public class ImmutableStringDemo {
         //string pool
         String s5=new String("Hello World");
         //heap memory
-        System.out.println(s3 == s4);
+        System.out.println(s3 == s4 );
         System.out.println(s2 == s5);
     }
 }
