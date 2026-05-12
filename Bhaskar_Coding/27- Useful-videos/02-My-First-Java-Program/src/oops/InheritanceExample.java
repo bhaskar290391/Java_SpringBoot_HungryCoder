@@ -1,22 +1,24 @@
+package oops;
+
 class Animal{
     public void eat(){
-        System.out.println("Animal is eating");
+        System.out.println("oops.Animal is eating");
     }
 
     public void sleep(){
-        System.out.println("Animal is sleeping");
+        System.out.println("oops.Animal is sleeping");
     }
 }
 
 class  Dog extends  Animal{
     public void bark(){
-        System.out.println("Dog is barking");
+        System.out.println("oops.Dog is barking");
     }
 }
 
 class  Cat extends  Animal{
     public void meowing(){
-        System.out.println("Cat is meowing");
+        System.out.println("oops.Cat is meowing");
     }
 }
 

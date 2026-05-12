@@ -1,3 +1,5 @@
+package variableAndDatatypes;
+
 public class VariableDemo {
    public  static void main() {
 
