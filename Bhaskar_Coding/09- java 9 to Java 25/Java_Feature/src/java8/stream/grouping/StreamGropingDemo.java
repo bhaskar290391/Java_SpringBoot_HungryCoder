@@ -1,4 +1,4 @@
-package streams;
+package java8.stream.grouping;
 
 import java.util.IntSummaryStatistics;
 import java.util.List;
