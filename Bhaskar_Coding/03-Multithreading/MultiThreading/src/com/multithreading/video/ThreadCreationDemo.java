@@ -1,4 +1,4 @@
-package com.multithreading;
+package com.multithreading.video;
 
 public class ThreadCreationDemo {
    public static  Object Sharedobject= new Object();

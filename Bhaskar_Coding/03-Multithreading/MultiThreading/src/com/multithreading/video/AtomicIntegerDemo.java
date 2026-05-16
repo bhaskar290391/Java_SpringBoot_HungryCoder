@@ -1,4 +1,4 @@
-package com.multithreading;
+package com.multithreading.video;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

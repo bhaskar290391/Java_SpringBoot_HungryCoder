@@ -1,4 +1,4 @@
-package com.multithreading;
+package com.multithreading.video;
 class SharedResourceVolatile{
     private volatile boolean flags;
 
