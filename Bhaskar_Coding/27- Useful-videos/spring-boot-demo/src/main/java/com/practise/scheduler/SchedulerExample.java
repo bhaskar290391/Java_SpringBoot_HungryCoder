@@ -25,4 +25,15 @@ public class SchedulerExample {
         System.out.println("Fixed Delay  "+ (System.currentTimeMillis()/1000));
     }
 
+
+    @Scheduled(cron = " * 12 14 * * *" )
+    public void cronExpressionByAttributes(){
+        System.out.println("Cron expression "+ (System.currentTimeMillis()/1000));
+    }
+
+    @Scheduled(cron = "${cronExpression}")
+    public void cronExpressionByProperties(){
+        System.out.println("Cron expression By Properties"+ (System.currentTimeMillis()/1000));
+    }
+
 }
