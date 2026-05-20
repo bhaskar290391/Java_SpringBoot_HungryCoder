@@ -22,8 +22,17 @@ public class UserController {
 
     @GetMapping("/dbConfig")
     public ResponseEntity<String> getDbConfig(){
+
         String dbData=properties.getServerName()+" \n "+ properties.getUserName()+" \n "+properties.getPassword()+
                 " \n "+properties.getServerPort();
+
+
         return new ResponseEntity<>(dbData,HttpStatus.OK);
+    }
+
+    @GetMapping("/test")
+    public ResponseEntity<String> getTest(){
+        String dbData="Test";
+        throw new RuntimeException("Throwing test");
     }
 }
