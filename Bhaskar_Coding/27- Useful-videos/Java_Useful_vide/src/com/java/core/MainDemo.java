@@ -1,4 +1,4 @@
-package com.practise;
+package com.java.core;
 
 public class MainDemo {
     public static void main() {
