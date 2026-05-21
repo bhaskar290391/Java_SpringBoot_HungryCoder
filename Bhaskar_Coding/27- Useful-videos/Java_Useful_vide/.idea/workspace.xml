@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4e19d98a-bbbe-4d15-8de3-3a15895deaed" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Useful_Video.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gclog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/CollectionUtilityDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/ComparatorChainingExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/GenericBoundedExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/GenericVSLegacy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/WildcardDataEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/GC/GCDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/GC/GCDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/GC/gclog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/core/MainDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/core/MyFirstProgram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/datatypes/DataTypes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/oops/AbstractAndInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/oops/AbstractionExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/oops/EncapsulationDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/oops/InheritanceExampleDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/oops/OverloadingVSOverriding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/reflection/ReflectionDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/string/ImmutableStringExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/string/StringBufferAndStringBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multithreaded/AtomicExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multithreaded/ConsumerRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multithreaded/ExecutorsServiceDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multithreaded/ProducerConsumerExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multithreaded/ProducerRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multithreaded/ThreadCreation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multithreaded/ThreadLocalInheritableThreadLocalExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multithreaded/ThreadPoolExecutorDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multithreaded/VirtualThreadDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/multithreaded/VolatileExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java8/optional/OptionalExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java8/stream/Arrays_To_Stream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java8/stream/FlatMapInterviewQuestion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java8/stream/Map_Vs_FlatMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java8/stream/ParallelStreamExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java8/stream/PartitionByExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java8/stream/StreamExample_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java8/stream/StreamExample_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java8/stream/TraditionalVSStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java8/stream/grouping/StreamGroupingExample.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3E2a8VrKiTbuyKBTjrV9gkvDkPB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Bhaskar_Learning_and_Development/Java_SpringBoot_HungryCoder/Bhaskar_Coding/27- Useful-videos/Java_Useful_vide",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e19d98a-bbbe-4d15-8de3-3a15895deaed" name="Changes" comment="" />
+      <created>1779378961957</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779378961957</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
