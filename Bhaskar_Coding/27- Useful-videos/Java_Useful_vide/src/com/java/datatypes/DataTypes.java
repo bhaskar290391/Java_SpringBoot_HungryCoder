@@ -19,6 +19,6 @@ public class DataTypes {
         double imp=5.6;
         int vis=(int)imp;
 
-        
+
     }
 }
