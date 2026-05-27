@@ -3,7 +3,7 @@ package Java8Features.StreamAPIandCollectors;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
-
+//completed
 public class CollectorsCountingExample {
     public static void main(String[] args) {
         List<String> strings = Arrays.asList("abc", "", "bc", "efg", "abcd", "", "jkl");
