@@ -1,7 +1,7 @@
 package Java8Features.OptionalClass;
 
 import java.util.Base64;
-
+//completed
 public class Base64Example {
     public static void main(String[] args) {
         // Example input string
