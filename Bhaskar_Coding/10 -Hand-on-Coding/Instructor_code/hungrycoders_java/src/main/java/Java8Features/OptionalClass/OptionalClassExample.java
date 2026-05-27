@@ -8,8 +8,8 @@ public class OptionalClassExample {
 
         // Create an Optional with a non-null value
         Optional<String> nonEmptyOptional = Optional.of("Hello, World!");
-        System.out.println("Non-Empty Optional: " + nonEmptyOptional); // Output: Non-Empty Optional: Optional[Hello, World!]
-        System.out.println("Value: " + nonEmptyOptional.get()); // Output: Value: Hello, World!
+            System.out.println("Non-Empty Optional: " + nonEmptyOptional); // Output: Non-Empty Optional: Optional[Hello, World!]
+            System.out.println("Value: " + nonEmptyOptional.get()); // Output: Value: Hello, World!
 
         // Create an Optional with a potentially null value
         Optional<String> nullableOptional = Optional.ofNullable(example.getNullableValue());
