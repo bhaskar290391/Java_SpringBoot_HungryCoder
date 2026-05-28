@@ -1,6 +1,6 @@
 package Collections.Lists;
 import java.util.ArrayList;
-
+//completed
 public class ArrayListExample {
     public static void main(String[] args) {
         // Create an ArrayList to store String elements

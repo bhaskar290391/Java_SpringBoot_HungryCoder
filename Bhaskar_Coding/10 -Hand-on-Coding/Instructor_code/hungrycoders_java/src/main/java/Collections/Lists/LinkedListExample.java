@@ -2,6 +2,7 @@ package Collections.Lists;
 
 import java.util.LinkedList;
 
+//completed
 public class LinkedListExample {
     public static void main(String[] args) {
         // Create a LinkedList to store String elements

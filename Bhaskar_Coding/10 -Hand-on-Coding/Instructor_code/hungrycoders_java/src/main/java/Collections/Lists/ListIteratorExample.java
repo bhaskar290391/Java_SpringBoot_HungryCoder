@@ -2,7 +2,7 @@ package Collections.Lists;
 
 import java.util.ArrayList;
 import java.util.ListIterator;
-
+//completed
 public class ListIteratorExample {
     public static void main(String[] args) {
         // Create an ArrayList of String type

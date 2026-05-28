@@ -2,6 +2,7 @@ package Collections.Lists;
 
 import java.util.Vector;
 
+//completed
 public class VectorExample {
     public static void main(String[] args) {
         // Create a Vector to store Integer elements
