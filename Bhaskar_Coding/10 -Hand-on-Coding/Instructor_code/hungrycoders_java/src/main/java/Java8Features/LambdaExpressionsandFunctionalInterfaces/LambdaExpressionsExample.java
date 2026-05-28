@@ -1,5 +1,5 @@
 package Java8Features.LambdaExpressionsandFunctionalInterfaces;
-
+//completed
 // Define a functional interface
 @FunctionalInterface
 interface GreetingService {
