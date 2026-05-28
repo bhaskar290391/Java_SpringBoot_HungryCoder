@@ -24,7 +24,7 @@ public class DequeExample {
         // Removing elements from the Deque
         deque.removeFirst();
         deque.removeLast();
-        System.out.println("Deque after removals: " + deque); // Output: Deque after removals: [1]
+        System.out.println("Deque after removals: " + deque);    // Output: Deque after removals: [1]
 
         // Iterating through the Deque
         System.out.println("Iterating through the deque:"); // Output: Iterating through the deque:
