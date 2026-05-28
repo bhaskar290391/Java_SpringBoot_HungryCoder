@@ -2,6 +2,7 @@ package Collections.Queues;
 
 import java.util.ArrayDeque;
 
+//completed
 public class ArrayDequeExample {
     public static void main(String[] args) {
         // Create an ArrayDeque of String type

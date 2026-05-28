@@ -3,6 +3,7 @@ package Collections.Queues;
 import java.util.LinkedList;
 import java.util.Queue;
 
+//completed
 public class QueueExample {
     public static void main(String[] args) {
         // Create a Queue of String type using LinkedList

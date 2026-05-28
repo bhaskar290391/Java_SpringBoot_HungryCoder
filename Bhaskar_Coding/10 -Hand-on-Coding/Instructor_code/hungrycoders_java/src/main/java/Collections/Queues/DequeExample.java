@@ -3,6 +3,7 @@ package Collections.Queues;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+//completed
 public class DequeExample {
     public static void main(String[] args) {
         // Create a Deque of Integer type using ArrayDeque

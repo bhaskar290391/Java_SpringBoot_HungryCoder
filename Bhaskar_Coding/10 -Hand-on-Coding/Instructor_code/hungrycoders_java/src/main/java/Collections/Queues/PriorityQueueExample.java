@@ -2,6 +2,7 @@ package Collections.Queues;
 
 import java.util.PriorityQueue;
 
+//completed
 public class PriorityQueueExample {
     public static void main(String[] args) {
         // Create a PriorityQueue of Integer type
