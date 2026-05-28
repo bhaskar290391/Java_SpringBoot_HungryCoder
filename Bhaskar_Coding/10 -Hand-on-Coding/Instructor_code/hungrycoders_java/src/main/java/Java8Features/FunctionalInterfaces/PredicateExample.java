@@ -1,7 +1,7 @@
 package Java8Features.FunctionalInterfaces;
 
 import java.util.function.Predicate;
-
+//completed
 public class PredicateExample {
     public static void main(String[] args) {
         // Predicate to check if a number is greater than 10

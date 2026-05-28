@@ -1,7 +1,7 @@
 package Java8Features.FunctionalInterfaces;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
-
+//completed
 public class CompletableFutureExample {
     public static void main(String[] args) {
         // Run a simple asynchronous task

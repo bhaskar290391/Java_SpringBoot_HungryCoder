@@ -1,7 +1,7 @@
 package Java8Features.FunctionalInterfaces;
 
 import java.util.function.UnaryOperator;
-
+//completed
 public class UnaryOperatorExample {
     public static void main(String[] args) {
         // UnaryOperator to increment an integer

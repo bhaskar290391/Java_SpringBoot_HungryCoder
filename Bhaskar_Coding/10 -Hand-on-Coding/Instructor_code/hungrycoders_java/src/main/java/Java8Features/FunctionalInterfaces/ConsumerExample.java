@@ -1,7 +1,7 @@
 package Java8Features.FunctionalInterfaces;
 
 import java.util.function.Consumer;
-
+//completed
 public class ConsumerExample {
     public static void main(String[] args) {
         // Consumer to print a string with a prefix

@@ -1,7 +1,7 @@
 package Java8Features.FunctionalInterfaces;
 
 import java.util.function.Supplier;
-
+//completed
 public class SupplierExample {
     public static void main(String[] args) {
         // Supplier to provide a new String

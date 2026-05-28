@@ -2,6 +2,7 @@ package Java8Features.FunctionalInterfaces;
 
 import java.util.function.BinaryOperator;
 
+//completed
 public class BinaryOperatorExample {
     public static void main(String[] args) {
         // BinaryOperator to add two integers
