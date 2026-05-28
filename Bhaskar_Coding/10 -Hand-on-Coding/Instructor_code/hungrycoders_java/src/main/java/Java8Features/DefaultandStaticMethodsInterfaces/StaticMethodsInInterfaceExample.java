@@ -1,5 +1,6 @@
 package Java8Features.DefaultandStaticMethodsInterfaces;
 
+//completed
 // Define the interface with a static method
 interface MyStaticInterface {
     // Static method (can be called without an instance of the interface)

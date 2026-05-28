@@ -1,5 +1,6 @@
 package Java8Features.DefaultandStaticMethodsInterfaces;
 
+//completed
 // Define the interface with a default method
 interface MyInterface {
     // Abstract method (must be implemented by any class that implements this interface)
