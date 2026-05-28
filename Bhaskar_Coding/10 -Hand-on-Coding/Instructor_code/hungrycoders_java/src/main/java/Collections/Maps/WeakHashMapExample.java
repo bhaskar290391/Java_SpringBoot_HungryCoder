@@ -2,6 +2,7 @@ package Collections.Maps;
 
 import java.util.WeakHashMap;
 
+//completed
 public class WeakHashMapExample {
     public static void main(String[] args) {
         // Create a WeakHashMap of String key and Integer value

@@ -2,6 +2,7 @@ package Collections.Maps;
 
 import java.util.IdentityHashMap;
 
+//completed
 public class IdentityHashMapExample {
     public static void main(String[] args) {
         // Create an IdentityHashMap of Integer key and String value

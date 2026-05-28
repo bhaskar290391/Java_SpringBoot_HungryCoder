@@ -26,12 +26,12 @@ public class StackExample {
 		} else {
 			System.out.println("The satck is not empty");
 		}
-		
-		int position=data.search(10);
-		
-		if(position !=-1) {
+
+		int position = data.search(10);
+
+		if (position != -1) {
 			System.out.println("Element Found");
-		}else {
+		} else {
 			System.out.println("Element Not found");
 		}
 	}

@@ -2,7 +2,7 @@ package Collections.Stack;
 
 import java.util.Stack;
 
-//complete
+//completed
 public class StackExample {
     public static void main(String[] args) {
         // Create a stack of integers

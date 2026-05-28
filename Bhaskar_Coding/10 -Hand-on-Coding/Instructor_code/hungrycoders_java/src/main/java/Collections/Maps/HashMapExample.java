@@ -1,7 +1,7 @@
 package Collections.Maps;
 
 import java.util.HashMap;
-
+//completed
 public class HashMapExample {
     public static void main(String[] args) {
         // Create a HashMap of Integer key and String value
