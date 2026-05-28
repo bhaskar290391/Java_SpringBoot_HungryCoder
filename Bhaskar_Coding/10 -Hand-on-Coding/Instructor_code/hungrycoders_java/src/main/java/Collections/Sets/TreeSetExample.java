@@ -2,6 +2,7 @@ package Collections.Sets;
 
 import java.util.TreeSet;
 
+//completed
 public class TreeSetExample {
     public static void main(String[] args) {
         // Create a TreeSet of Integer type

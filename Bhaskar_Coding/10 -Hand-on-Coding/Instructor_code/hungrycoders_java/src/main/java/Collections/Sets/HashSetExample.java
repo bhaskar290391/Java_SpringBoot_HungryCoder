@@ -2,6 +2,7 @@ package Collections.Sets;
 
 import java.util.HashSet;
 
+//completed
 public class HashSetExample {
     public static void main(String[] args) {
         // Create a HashSet of String type

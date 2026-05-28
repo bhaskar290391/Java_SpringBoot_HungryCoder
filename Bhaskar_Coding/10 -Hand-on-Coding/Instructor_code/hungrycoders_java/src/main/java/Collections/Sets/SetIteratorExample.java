@@ -3,6 +3,7 @@ package Collections.Sets;
 import java.util.HashSet;
 import java.util.Iterator;
 
+//completed
 public class SetIteratorExample {
     public static void main(String[] args) {
         // Create a HashSet of String type
