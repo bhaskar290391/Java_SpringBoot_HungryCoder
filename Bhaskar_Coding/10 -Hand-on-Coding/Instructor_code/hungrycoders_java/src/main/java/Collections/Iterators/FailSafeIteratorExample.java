@@ -4,6 +4,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
+//completed
 public class FailSafeIteratorExample {
     public static void main(String[] args) {
         // Creating a CopyOnWriteArrayList which is a fail-safe collection

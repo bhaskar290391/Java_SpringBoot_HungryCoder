@@ -3,7 +3,7 @@ package Collections.Iterators;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-
+//completed
 public class FailFastIteratorExample {
     public static void main(String[] args) {
         // Create a list of integers
