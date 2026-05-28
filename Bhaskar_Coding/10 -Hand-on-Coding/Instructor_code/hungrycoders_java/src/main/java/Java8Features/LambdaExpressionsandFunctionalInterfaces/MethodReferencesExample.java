@@ -2,7 +2,7 @@ package Java8Features.LambdaExpressionsandFunctionalInterfaces;
 
 import java.util.Arrays;
 import java.util.List;
-
+//completed
 public class MethodReferencesExample {
     // Static method
     public static void printMessage(String message) {
