@@ -1,7 +1,7 @@
 package Multithreading.SynchronizationandCommunication;
 
 // ThreadCommunicationExample.java
-
+//completed
 class SharedResource {
     private boolean available = false;
 

@@ -1,7 +1,7 @@
 package Multithreading.SynchronizationandCommunication;
 
 // WaitNotifyExample.java
-
+//completed
 class Message {
     private String message;
 

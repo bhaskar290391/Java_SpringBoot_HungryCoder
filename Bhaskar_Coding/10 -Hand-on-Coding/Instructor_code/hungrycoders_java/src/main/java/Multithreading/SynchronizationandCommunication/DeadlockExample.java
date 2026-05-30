@@ -1,7 +1,7 @@
 package Multithreading.SynchronizationandCommunication;
 
 // DeadlockExample.java
-
+//completed
 class Resource {
     public synchronized void method1(Resource resource) {
         System.out.println(Thread.currentThread().getName() + " is executing method1");

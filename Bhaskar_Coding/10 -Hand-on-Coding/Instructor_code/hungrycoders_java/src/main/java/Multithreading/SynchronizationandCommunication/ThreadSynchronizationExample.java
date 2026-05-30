@@ -1,7 +1,7 @@
 package Multithreading.SynchronizationandCommunication;
 
 // ThreadSynchronizationExample.java
-
+//completed
 class Counter {
     private int count = 0;
 

@@ -1,6 +1,7 @@
 package Multithreading.SynchronizationandCommunication;
 
 // NotifyAllExample.java
+//completed
 
 class SharedData {
     private boolean ready = false;
