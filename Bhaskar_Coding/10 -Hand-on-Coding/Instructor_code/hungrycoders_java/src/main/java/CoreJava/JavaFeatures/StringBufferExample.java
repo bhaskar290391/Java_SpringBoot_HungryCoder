@@ -1,5 +1,6 @@
 package CoreJava.JavaFeatures;
 
+//completed
 public class StringBufferExample {
     public static void main(String[] args) {
         // Creating a StringBuffer

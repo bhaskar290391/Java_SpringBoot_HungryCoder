@@ -1,7 +1,9 @@
 package CoreJava.JavaFeatures;
 
+//completed
 public class EnumExample {
     // Enum declaration
+
     enum Day {
         SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY
     }

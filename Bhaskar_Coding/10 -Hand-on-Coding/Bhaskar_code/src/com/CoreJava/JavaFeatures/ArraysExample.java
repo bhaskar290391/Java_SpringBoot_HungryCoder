@@ -9,7 +9,7 @@ public class ArraysExample {
 		int number[]= {5,3,8,2,9};
 		
 		//printing an array
-		System.out.println("Printing an array "+ Arrays.toString(number));
+		System.out.println("Printing an array   "+ Arrays.toString(number));
 		
 		//sorting an array 
 		Arrays.sort(number);

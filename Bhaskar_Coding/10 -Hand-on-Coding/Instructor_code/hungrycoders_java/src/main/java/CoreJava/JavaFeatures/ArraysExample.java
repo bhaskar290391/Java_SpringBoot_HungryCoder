@@ -1,7 +1,7 @@
 package CoreJava.JavaFeatures;
 
 import java.util.Arrays;
-//completed
+//compleeeted
 public class ArraysExample {
     public static void main(String[] args) {
         // Creating an array

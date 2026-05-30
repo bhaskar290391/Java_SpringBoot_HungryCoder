@@ -1,5 +1,5 @@
 package CoreJava.JavaFeatures;
-
+//completed
 public class DefaultConstructorExample {
     int var1;
     int var2;

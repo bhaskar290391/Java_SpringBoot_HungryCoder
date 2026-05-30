@@ -1,5 +1,6 @@
 package CoreJava.JavaFeatures;
 
+//completed
 public class StaticKeywordExample {
     // Static variable
     static int staticVar = 10;

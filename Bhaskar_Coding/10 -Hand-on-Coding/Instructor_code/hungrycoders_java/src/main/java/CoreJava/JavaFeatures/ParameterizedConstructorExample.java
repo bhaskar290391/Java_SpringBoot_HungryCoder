@@ -1,5 +1,6 @@
 package CoreJava.JavaFeatures;
 
+//completed
 public class ParameterizedConstructorExample {
     int var1;
     int var2;
