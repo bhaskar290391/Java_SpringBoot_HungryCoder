@@ -1,7 +1,7 @@
 package Multithreading.BasicThreadOperations;
 
 // ThreadLifecycleExample.java
-
+//completed
 class MyLifecycleThread extends Thread {
     public void run() {
         System.out.println("Thread is running");

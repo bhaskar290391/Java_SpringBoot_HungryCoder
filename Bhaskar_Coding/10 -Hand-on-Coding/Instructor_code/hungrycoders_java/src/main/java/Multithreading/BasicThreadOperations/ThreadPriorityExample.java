@@ -1,10 +1,11 @@
 package Multithreading.BasicThreadOperations;
 
 // ThreadPriorityExample.java
-
+//completed
 class MyPriorityThread extends Thread {
     public void run() {
-        System.out.println(Thread.currentThread().getName() + " with priority " + Thread.currentThread().getPriority() + " is running");
+        System.out.println(Thread.currentThread().getName() + " " +
+                "with priority " + Thread.currentThread().getPriority() + " is running");
     }
 }
 

@@ -2,6 +2,7 @@ package Multithreading.BasicThreadOperations;
 
 // RunnableExample.java
 
+//completed
 // Define a class that implements the Runnable interface
 class MyRunnable implements Runnable {
     // Override the run method to define the task
