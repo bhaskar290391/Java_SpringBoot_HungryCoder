@@ -1,5 +1,5 @@
 package CoreJava.Oops;
-
+//completed
 // Abstract class
 abstract class Animal1 {
     private String name;
