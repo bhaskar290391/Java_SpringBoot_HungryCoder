@@ -1,7 +1,7 @@
 package Generics;
 
 // Demonstrates the use of a generic class with multiple type parameters
-
+//completed
 // Define a generic class with two type parameters T and U
 class Pair<T, U> {
     private T first;

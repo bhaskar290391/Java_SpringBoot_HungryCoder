@@ -1,7 +1,7 @@
 package Generics;
 
 // Demonstrates the use of bounded type parameters in Java
-
+//completed
 // Define a generic class with a bounded type parameter T
 // T is bounded by the Number class, meaning T can only be a subclass of Number
 class NumberBox<T extends Number> {

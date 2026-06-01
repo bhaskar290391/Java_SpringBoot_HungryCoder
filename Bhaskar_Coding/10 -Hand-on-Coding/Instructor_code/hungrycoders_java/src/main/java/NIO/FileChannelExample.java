@@ -3,7 +3,7 @@ package NIO;
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
-
+//completed
 public class FileChannelExample {
     public static void main(String[] args) {
         try {

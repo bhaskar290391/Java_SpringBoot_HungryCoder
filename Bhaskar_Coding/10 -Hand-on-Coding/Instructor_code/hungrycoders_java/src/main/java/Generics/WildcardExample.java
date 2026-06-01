@@ -5,6 +5,7 @@ package Generics;
 import java.util.ArrayList;
 import java.util.List;
 
+//completed
 public class WildcardExample {
 
     // Method to print the list with an unbounded wildcard

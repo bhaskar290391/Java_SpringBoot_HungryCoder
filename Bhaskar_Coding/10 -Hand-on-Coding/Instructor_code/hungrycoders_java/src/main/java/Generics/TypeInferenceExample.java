@@ -4,7 +4,7 @@ package Generics;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//completed
 public class TypeInferenceExample {
     public static void main(String[] args) {
         // Use the diamond operator to create a list of strings

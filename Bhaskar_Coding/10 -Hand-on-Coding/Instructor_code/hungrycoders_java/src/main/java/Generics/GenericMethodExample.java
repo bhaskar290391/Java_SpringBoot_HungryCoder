@@ -1,7 +1,7 @@
 package Generics;
 
 // Demonstrates the use of a generic method in Java
-
+//completed
 public class GenericMethodExample {
 
     // Define a generic method that prints array elements

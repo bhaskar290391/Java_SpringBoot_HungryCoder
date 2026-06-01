@@ -1,7 +1,7 @@
 package Generics;
 
 // Demonstrates the use of a generic class in Java
-
+//completed
 // Define a generic class with a type parameter T
 class Box<T> {
     private T content;
