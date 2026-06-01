@@ -4,6 +4,7 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
+//completed
 public class BufferedWriterExample {
     public static void main(String[] args) {
         // Declare FileWriter and BufferedWriter outside the try block
