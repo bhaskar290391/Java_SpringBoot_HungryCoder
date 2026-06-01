@@ -2,6 +2,7 @@ package NIO;
 
 import java.nio.IntBuffer;
 
+//completed
 public class BufferExample {
     public static void main(String[] args) {
         // Create a IntBuffer with capacity 5

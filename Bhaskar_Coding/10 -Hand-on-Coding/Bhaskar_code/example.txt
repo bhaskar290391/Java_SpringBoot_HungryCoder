@@ -1,1 +1,5 @@
+Hello Bhaskarused to write data in file using file writer and buffer object stream .
+I am lucky enough to complete this task .
+Hello, FileChannel!of writing to a file using BufferedWriter.
+BufferedWriter is used to provide efficient writing of characters.
 Author : Bhaskar

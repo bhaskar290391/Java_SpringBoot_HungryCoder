@@ -3,6 +3,7 @@ package NIO;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
+//completed
 public class PathExample {
     public static void main(String[] args) {
         // Create a Path object using Paths.get()
