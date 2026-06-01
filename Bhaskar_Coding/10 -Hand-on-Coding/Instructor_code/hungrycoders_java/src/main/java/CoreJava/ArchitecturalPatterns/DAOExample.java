@@ -5,6 +5,7 @@ import lombok.Setter;
 
 import java.util.List;
 
+//completed
 // Model class representing a simple User entity
 @Setter
 @Getter

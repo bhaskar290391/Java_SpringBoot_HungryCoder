@@ -1,5 +1,5 @@
 package CoreJava.ArchitecturalPatterns;
-
+//completed
 // Model class representing a simple User entity
 class User {
     private String username;

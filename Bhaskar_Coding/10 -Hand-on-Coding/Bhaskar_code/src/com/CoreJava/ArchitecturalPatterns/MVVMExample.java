@@ -1,9 +1,10 @@
-package CoreJava.ArchitecturalPatterns;
+package com.CoreJava.ArchitecturalPatterns;
+
+
 
 import javafx.beans.property.SimpleStringProperty;;
 import javafx.beans.property.StringProperty;
 
-//completed
 // Model class representing a simple User entity
 class UserModel {
     private StringProperty username = new SimpleStringProperty();
