@@ -1,0 +1,10 @@
+Github References:
+
+1. Below repo contains code references for all Java and Spring Boot modules:
+https://github.com/eugenp/tutorials
+
+2. Below repo contains good code references for advanced topics like Eureka, API Gateway, Zipkin and Spring Cloud:
+https://github.com/spring-petclinic/spring-petclinic-microservices
+
+3. Below link contains useful concepts about spring guides:
+https://spring.io/guides
