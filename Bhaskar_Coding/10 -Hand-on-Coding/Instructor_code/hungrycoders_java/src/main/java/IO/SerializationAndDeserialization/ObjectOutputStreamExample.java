@@ -6,6 +6,7 @@ import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
+//completed
 public class ObjectOutputStreamExample {
     public static void main(String[] args) {
         // List of objects to be serialized

@@ -1,16 +1,16 @@
-package IO.SerializationAndDeserialization;
+package com.IO.SerializationAndDeserialization;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 
-//completed
 public class DeserializationExample {
-    public static void main(String[] args) {
-        // Deserialization code
+
+	public static void main(String[] args) {
+		   // Deserialization code
         try {
             // Create a FileInputStream to read objects from the file "student.ser"
-            FileInputStream fileIn = new FileInputStream("student.ser");
+            FileInputStream fileIn = new FileInputStream("bhakar.ser");
 
             // Create an ObjectInputStream to read objects from the FileInputStream
             ObjectInputStream objectIn = new ObjectInputStream(fileIn);
@@ -29,5 +29,7 @@ public class DeserializationExample {
         } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
         }
-    }
+
+	}
+
 }

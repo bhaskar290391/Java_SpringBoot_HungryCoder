@@ -27,6 +27,7 @@ class Student implements Serializable {
     }
 }
 
+//completed
 public class SerializationExample {
     public static void main(String[] args) {
         // Create an object of the Student class
