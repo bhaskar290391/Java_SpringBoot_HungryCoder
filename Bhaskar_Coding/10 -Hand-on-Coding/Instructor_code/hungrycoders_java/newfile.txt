@@ -1,2 +1,0 @@
-Hello, FileChannel!of writing to a file using BufferedWriter.
-BufferedWriter is used to provide efficient writing of characters.
